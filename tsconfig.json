@@ -1,0 +1,17 @@
+{
+  "files": [],
+  "references": [
+    { "path": "packages/core" },
+    { "path": "packages/validator" },
+    { "path": "packages/auth" },
+    { "path": "packages/rate-limit" },
+    { "path": "packages/trace" },
+    { "path": "packages/lifecycle" },
+    { "path": "packages/docs-engine" },
+    { "path": "packages/docs-cli" },
+    { "path": "packages/ui" },
+  ],
+  "compilerOptions": {
+    "noEmit": true
+  }
+}

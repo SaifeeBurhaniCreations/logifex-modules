@@ -1,0 +1,14 @@
+{
+  "name": "@logifex/docs",
+  "version": "0.1.0",
+  "bin": {
+    "logifex-docs": "./dist/index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "@logifex/docs-engine": "workspace:*"
+  },
+  "scripts": {
+    "build": "tsc -b"
+  }
+}

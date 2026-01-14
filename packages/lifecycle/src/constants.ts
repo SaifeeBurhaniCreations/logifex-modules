@@ -1,0 +1,1 @@
+export const LIFECYCLE_MIDDLEWARE_NAME = 'logifex:lifecycle'

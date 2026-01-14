@@ -1,0 +1,30 @@
+{
+  "name": "validator-test",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "dependencies": {
+    "@logifex/auth": "workspace:*",
+    "@logifex/core": "workspace:*",
+    "@logifex/validator": "workspace:*",
+    "@logifex/rate-limit": "workspace:*",
+    "@logifex/trace": "workspace:*",
+    "@logifex/lifecycle": "workspace:*",
+    "hono": "^4.11.3",
+    "jsonwebtoken": "^9.0.3",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/jsonwebtoken": "^9.0.10"
+  }
+}

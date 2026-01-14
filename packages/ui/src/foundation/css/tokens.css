@@ -1,0 +1,16 @@
+:root {
+  --lx-background: #ffffff;
+  --lx-surface: #ffffff;
+  --lx-surface-alt: #f1f5f9;
+
+  --lx-text-primary: #0f172a;
+  --lx-text-secondary: #334155;
+  --lx-text-muted: #64748b;
+
+  --lx-border: #e2e8f0;
+  --lx-divider: #cbd5e1;
+
+  --lx-accent: #2563eb;
+  --lx-accent-hover: #1d4ed8;
+  --lx-danger: #dc2626;
+}

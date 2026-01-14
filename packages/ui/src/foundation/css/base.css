@@ -1,0 +1,45 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: var(--lx-background);
+  color: var(--lx-text-primary);
+
+  font-family: var(--lx-font-sans, system-ui, sans-serif);
+  font-size: 16px;
+  line-height: 1.5;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Text hierarchy (VERY minimal) */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--lx-text-primary);
+  font-weight: 600;
+}
+
+/* Paragraph defaults */
+p {
+  color: var(--lx-text-secondary);
+}
+
+/* Focus visibility (accessibility) */
+:focus-visible {
+  outline: 2px solid var(--lx-accent);
+  outline-offset: 2px;
+}
+
+/* Disabled state */
+[disabled],
+[aria-disabled="true"] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

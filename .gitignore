@@ -1,0 +1,14 @@
+# deps
+node_modules/
+# Build output
+**/dist/
+**/*.tsbuildinfo
+
+# Node
+node_modules/
+
+# Logs
+*.log
+
+# OS
+.DS_Store*.tsbuildinfo
